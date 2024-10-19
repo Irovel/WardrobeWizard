@@ -7,18 +7,24 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="FashionPage.xaml.cs">
+    <Compile Update="Pages\AddItemPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="HomePage.xaml.cs">
+    <Compile Update="Pages\FashionPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\HomePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="FashionPage.xaml">
+    <Page Update="Pages\AddItemPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="HomePage.xaml">
+    <Page Update="Pages\FashionPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\HomePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
