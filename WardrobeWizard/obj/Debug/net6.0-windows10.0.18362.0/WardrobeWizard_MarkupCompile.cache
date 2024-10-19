@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Projects\WPF Projects\WardrobeWizard\WardrobeWizard\App.xaml
-11407045341
+3632507013
 
-3-1233169557
+5-947053574
 199-458516197
-MainWindow.xaml;
+FashionPage.xaml;HomePage.xaml;MainWindow.xaml;
 
 False
 

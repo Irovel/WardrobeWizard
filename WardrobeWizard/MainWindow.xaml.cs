@@ -1,4 +1,5 @@
-﻿using System;
+﻿using iNKORE.UI.WPF.Modern.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,20 @@ namespace WardrobeWizard {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
+            // Subscribe to the SelectionChanged event
+            MyNavigationView.SelectionChanged += MyNavigationView_SelectionChanged;
+        }
+
+        private void MyNavigationView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args) {
+            var selectedItem = (NavigationViewItem)args.SelectedItem;
+            switch (selectedItem.Tag) {
+                case "HomePage":
+                    MainContent.Content = new HomePage(); // Ensure HomePage class exists
+                    break;
+                case "FashionPage":
+                    MainContent.Content = new FashionPage(); // Ensure FashionPage class exists
+                    break;
+            }
         }
     }
 }

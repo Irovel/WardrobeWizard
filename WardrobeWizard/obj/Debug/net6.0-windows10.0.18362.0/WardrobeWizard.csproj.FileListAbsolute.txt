@@ -26,3 +26,7 @@ C:\Projects\WPF Projects\WardrobeWizard\WardrobeWizard\obj\Debug\net6.0-windows1
 C:\Projects\WPF Projects\WardrobeWizard\WardrobeWizard\obj\Debug\net6.0-windows10.0.18362.0\WardrobeWizard.pdb
 C:\Projects\WPF Projects\WardrobeWizard\WardrobeWizard\obj\Debug\net6.0-windows10.0.18362.0\WardrobeWizard.genruntimeconfig.cache
 C:\Projects\WPF Projects\WardrobeWizard\WardrobeWizard\obj\Debug\net6.0-windows10.0.18362.0\ref\WardrobeWizard.dll
+C:\Projects\WPF Projects\WardrobeWizard\WardrobeWizard\obj\Debug\net6.0-windows10.0.18362.0\FashionPage.baml
+C:\Projects\WPF Projects\WardrobeWizard\WardrobeWizard\obj\Debug\net6.0-windows10.0.18362.0\HomePage.baml
+C:\Projects\WPF Projects\WardrobeWizard\WardrobeWizard\obj\Debug\net6.0-windows10.0.18362.0\FashionPage.g.cs
+C:\Projects\WPF Projects\WardrobeWizard\WardrobeWizard\obj\Debug\net6.0-windows10.0.18362.0\HomePage.g.cs

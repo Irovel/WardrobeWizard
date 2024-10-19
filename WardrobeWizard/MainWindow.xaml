@@ -11,12 +11,24 @@
         ui:TitleBar.Height="36"
         mc:Ignorable="d"
         Title="hello" Height="450" Width="800">
-    
-    <!--我在这里添加了一些内容，您可以添加任何您想要的内容-->
-    <ikw:SimpleStackPanel VerticalAlignment="Center" Spacing="5">
-        <TextBlock Text="Fluent Design 很美。" FontSize="24" FontWeight="Bold" TextAlignment="Center"/>
-        <TextBlock Text="但是嘿，我们值得拥有 :-)" FontSize="20" TextAlignment="Center"/>
 
-        <Button Content="Hello world!" HorizontalAlignment="Center" Margin="0,20,0,0"/>
-    </ikw:SimpleStackPanel>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <!-- Left navigation bar takes 1/5 of the width -->
+            <ColumnDefinition Width="1*" />
+            <!-- Main content takes 4/5 of the width -->
+            <ColumnDefinition Width="4*" />
+        </Grid.ColumnDefinitions>
+
+        <ui:NavigationView x:Name="MyNavigationView" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed">
+            <ui:NavigationView.MenuItems>
+                <ui:NavigationViewItem Content="主页" Icon="H" Tag="HomePage"/>
+                <ui:NavigationViewItem Content="穿搭" Icon="C" Tag="FashionPage"/>
+            </ui:NavigationView.MenuItems>
+        </ui:NavigationView>
+
+        <ContentControl x:Name="MainContent" Grid.Column="1" />
+
+    </Grid>
+    
 </Window>
