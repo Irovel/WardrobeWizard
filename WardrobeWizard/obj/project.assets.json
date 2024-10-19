@@ -1,0 +1,203 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows10.0.18362": {
+      "iNKORE.UI.WPF/1.2.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/iNKORE.UI.WPF.dll": {
+            "related": ".deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/iNKORE.UI.WPF.dll": {
+            "related": ".deps.json;.pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "iNKORE.UI.WPF.Modern/0.9.30": {
+        "type": "package",
+        "dependencies": {
+          "iNKORE.UI.WPF": "1.2.7.1"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          },
+          "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.dll": {
+            "related": ".Controls.deps.json;.Controls.pdb;.Controls.xml;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          },
+          "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.dll": {
+            "related": ".Controls.deps.json;.Controls.pdb;.Controls.xml;.pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "iNKORE.UI.WPF/1.2.7.1": {
+      "sha512": "jxWb7nbKbmuC2RmAWeM2f9qmLD2/0TnYWonsLsOGcv8nVsqR1vVgH1DKXdDrt4a8i/d+H+brEFLcwdzLaRvnnQ==",
+      "type": "package",
+      "path": "inkore.ui.wpf/1.2.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "WpfLibrary_256w.png",
+        "inkore.ui.wpf.1.2.7.1.nupkg.sha512",
+        "inkore.ui.wpf.nuspec",
+        "lib/net452/iNKORE.UI.WPF.dll",
+        "lib/net452/iNKORE.UI.WPF.pdb",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.deps.json",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.dll",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.pdb"
+      ]
+    },
+    "iNKORE.UI.WPF.Modern/0.9.30": {
+      "sha512": "7QdYE9Xioy6CBz4TWCx1Ai6JnUXn2iL3NjbcEvXDQWxMbdIT3YkXmyFh9r0pqG8/kLUE6Em1UaSRcWb44vYuKQ==",
+      "type": "package",
+      "path": "inkore.ui.wpf.modern/0.9.30",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "WpfLibrary_64w.png",
+        "inkore.ui.wpf.modern.0.9.30.nupkg.sha512",
+        "inkore.ui.wpf.modern.nuspec",
+        "lib/net452/System.ValueTuple.dll",
+        "lib/net452/iNKORE.UI.WPF.Modern.Controls.dll",
+        "lib/net452/iNKORE.UI.WPF.Modern.Controls.pdb",
+        "lib/net452/iNKORE.UI.WPF.Modern.Controls.xml",
+        "lib/net452/iNKORE.UI.WPF.Modern.dll",
+        "lib/net452/iNKORE.UI.WPF.Modern.pdb",
+        "lib/net452/iNKORE.UI.WPF.Modern.xml",
+        "lib/net452/iNKORE.UI.WPF.dll",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.deps.json",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.dll",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.pdb",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.xml",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.dll",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.pdb",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows10.0.18362": [
+      "iNKORE.UI.WPF >= 1.2.7.1",
+      "iNKORE.UI.WPF.Modern >= 0.9.30"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\0xBF\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projects\\WPF Projects\\WardrobeWizard\\WardrobeWizard\\WardrobeWizard.csproj",
+      "projectName": "WardrobeWizard",
+      "projectPath": "C:\\Projects\\WPF Projects\\WardrobeWizard\\WardrobeWizard\\WardrobeWizard.csproj",
+      "packagesPath": "C:\\Users\\0xBF\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\WPF Projects\\WardrobeWizard\\WardrobeWizard\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\0xBF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows10.0.18362.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows10.0.18362": {
+          "targetAlias": "net6.0-windows10.0.18362.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows10.0.18362": {
+        "targetAlias": "net6.0-windows10.0.18362.0",
+        "dependencies": {
+          "iNKORE.UI.WPF": {
+            "target": "Package",
+            "version": "[1.2.7.1, )"
+          },
+          "iNKORE.UI.WPF.Modern": {
+            "target": "Package",
+            "version": "[0.9.30, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.20, 6.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.20, 6.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.20, 6.0.20]"
+          },
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.18362.29, 10.0.18362.29]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.20, 6.0.20]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

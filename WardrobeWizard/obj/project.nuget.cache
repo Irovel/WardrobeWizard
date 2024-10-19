@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "HyuHhfYVAYmoth66teGVulQZO+UFPVtSWDjS5p84rjBCBOAMRz+pQIcB6ZNgNvGQX9oXinRoCDcz25H19kiN6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\WPF Projects\\WardrobeWizard\\WardrobeWizard\\WardrobeWizard.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\0xBF\\.nuget\\packages\\inkore.ui.wpf\\1.2.7.1\\inkore.ui.wpf.1.2.7.1.nupkg.sha512",
+    "C:\\Users\\0xBF\\.nuget\\packages\\inkore.ui.wpf.modern\\0.9.30\\inkore.ui.wpf.modern.0.9.30.nupkg.sha512",
+    "C:\\Users\\0xBF\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.18362.29\\microsoft.windows.sdk.net.ref.10.0.18362.29.nupkg.sha512",
+    "C:\\Users\\0xBF\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\0xBF\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\0xBF\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\0xBF\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
